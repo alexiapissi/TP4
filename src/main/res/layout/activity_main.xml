@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.a41824471.tp4.MainActivity">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:id="@+id/layoutpfragment">
+
+</RelativeLayout>
+    <LinearLayout
+        android:background="@color/colorbaarra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+        <ImageButton
+            android:background="@color/colorbaarra"
+            android:src="@drawable/ic_place_black_24dp"
+            android:onClick="btnMapa"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <ImageButton
+            android:background="@color/colorbaarra"
+            android:onClick="btnResultados"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/ic_format_list_bulleted_black_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</LinearLayout>
